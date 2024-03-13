@@ -1,0 +1,124 @@
+/* Style pour #addTask */
+#addTask {
+    background-color: rebeccapurple;
+    color: blue;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+ 
+/* Style pour .sidebar */
+.sidebar {
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    background-color: #333;
+    transition: left 0.3s;
+    z-index: 1;
+}
+ 
+.sidebar.active {
+    left: 0;
+}
+ 
+/* Style pour .w3-sidebar */
+.w3-sidebar {
+    height: 100%;
+    width: 200px;
+    background-color: rgb(241, 227, 227);
+    position: fixed !important;
+    z-index: 1;
+    overflow: none;
+}
+ 
+.w3-bar-block .w3-bar-item {
+    width: 100%;
+    display: block;
+    padding: 8px 16px;
+    text-align: left;
+    border: none;
+    white-space: normal;
+    float: none;
+    outline: 0;
+}
+ 
+.w3-bar-block.w3-center .w3-bar-item {
+    text-align: center;
+}
+ 
+.w3-block {
+    display: block;
+    width: 100%;
+}
+ 
+/* Style pour les divs #div1, #div2, #div3 */
+#div1 {
+    background-color: #a1a73d;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+ 
+#div2 {
+    background-color: #afb634;
+    margin-bottom: 5px;
+}
+ 
+#div3 {
+    background-color: rgb(195, 202, 65);
+    margin-bottom: 5px;
+}
+ 
+/* Style pour le body */
+body {
+    background-color: rgb(150, 148, 148);
+    font-family: Arial, sans-serif;
+}
+ 
+/* Style pour .container */
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid gold;
+    border-radius: 5px;
+    background-color: rgb(153, 51, 136);
+    color: gold;
+}
+ 
+/* Style pour les inputs */
+input {
+    background: rgb(253, 253, 253);
+    color: gold;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+ 
+/* Style pour les placeholders */
+::placeholder {
+    color: rgb(39, 39, 34);
+    opacity: 0.7;
+}
+ 
+/* Style pour les boutons */
+button {
+    background-color: #a1a73d;
+    color: #000080;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ 
+/* Style pour .centrerhaut */
+.centrerhaut {
+    text-align: center;
+}
+ 
+/* Style pour #taskDone */
+#taskDone {
+    text-decoration: line-through;
+    opacity: 0.7;
+}
